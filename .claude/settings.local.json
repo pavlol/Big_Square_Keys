@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\kotlin\\\\com\\\\bigsquarekeys\\\\ime\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\kotlin\\\\com\\\\bigsquarekeys\\\\keyboard\\\\model\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\kotlin\\\\com\\\\bigsquarekeys\\\\keyboard\\\\layout\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\kotlin\\\\com\\\\bigsquarekeys\\\\language\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\kotlin\\\\com\\\\bigsquarekeys\\\\settings\")",
+      "PowerShell(Get-ChildItem -Recurse -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\" | Where-Object { !$_.PSIsContainer } | Select-Object -ExpandProperty FullName | Sort-Object)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\res\\\\mipmap-anydpi-v26\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"D:\\\\Development_Soft\\\\Big_Square_Keys\\\\app\\\\src\\\\main\\\\res\\\\drawable\")"
+    ]
+  }
+}

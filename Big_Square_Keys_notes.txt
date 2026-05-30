@@ -1,0 +1,11 @@
+Create Android phone keyboard App that will replace default keyboard like Samsung or Google, and will have big keys for large fingers.
+The problem this app must solve is the keyboard keys are too small fpor adults with large fingers, and when typing the neighbouring letters are pressed by mistake.
+It is expected that this keyboard will take more screen space and will not be 100% QWERTY.
+Keys must be of square share of same width 10 mm and hight 10 mm, not rectangular and narrow as usual.
+Must support all languages.
+Must not collect any information from user and emphasize it to user during installation.
+During installation and in Play Store must emphasize 10 mm square key size.
+Suggest tech stack.
+Create architecture.
+Name is something like "Big Square Keys" if this name is available in Play Market.
+Create CLAUDE.MD for this project with all nesessary data for Claude Code.

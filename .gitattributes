@@ -1,0 +1,17 @@
+# Normalize line endings
+* text=auto
+*.kt text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.properties text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Binaries
+*.png binary
+*.webp binary
+*.jar binary
+*.jks binary

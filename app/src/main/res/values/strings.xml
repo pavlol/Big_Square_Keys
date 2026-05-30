@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Big Square Keys</string>
+    <string name="ime_name">Big Square Keys</string>
+    <string name="onboarding_title">Welcome — Big Square Keys</string>
+
+    <!-- IME subtypes -->
+    <string name="subtype_en">English (US)</string>
+    <string name="subtype_en_gb">English (UK)</string>
+    <string name="subtype_es">Español</string>
+    <string name="subtype_fr">Français</string>
+    <string name="subtype_de">Deutsch</string>
+    <string name="subtype_it">Italiano</string>
+    <string name="subtype_pt">Português</string>
+    <string name="subtype_pl">Polski</string>
+    <string name="subtype_ru">Русский</string>
+    <string name="subtype_ar">العربية</string>
+</resources>
