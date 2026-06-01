@@ -377,6 +377,13 @@ everything else  →  LatinLayout   (QWERTY)
 
 ---
 
+## Commit Message Rules
+
+- **Never** add a `Co-Authored-By:` trailer or any AI attribution line to commit messages.
+- Commit messages should contain only the actual change description.
+
+---
+
 ## File Naming Conventions
 
 - Kotlin files: `PascalCase.kt`
