@@ -4,7 +4,7 @@
     <string name="ime_name">Big Square Keys</string>
     <string name="onboarding_title">Welcome — Big Square Keys</string>
 
-    <!-- IME subtypes -->
+    <!-- Latin subtypes -->
     <string name="subtype_en">English (US)</string>
     <string name="subtype_en_gb">English (UK)</string>
     <string name="subtype_es">Español</string>
@@ -12,7 +12,19 @@
     <string name="subtype_de">Deutsch</string>
     <string name="subtype_it">Italiano</string>
     <string name="subtype_pt">Português</string>
+    <string name="subtype_pt_br">Português (BR)</string>
     <string name="subtype_pl">Polski</string>
+    <string name="subtype_nl">Nederlands</string>
+    <string name="subtype_sv">Svenska</string>
+    <string name="subtype_tr">Türkçe</string>
+    <string name="subtype_id">Indonesia</string>
+
+    <!-- Cyrillic subtypes -->
     <string name="subtype_ru">Русский</string>
+    <string name="subtype_uk">Українська</string>
+    <string name="subtype_bg">Български</string>
+
+    <!-- RTL subtypes -->
     <string name="subtype_ar">العربية</string>
+    <string name="subtype_he">עברית</string>
 </resources>

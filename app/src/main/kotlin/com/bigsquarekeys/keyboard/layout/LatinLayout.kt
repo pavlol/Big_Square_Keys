@@ -23,7 +23,7 @@ object LatinLayout {
         else -> build6()
     }
 
-    private fun letter(c: Char) = Key(c.uppercase(), KeyAction.CommitChar(c.lowercaseChar()))
+    private fun letter(c: Char) = Key(c.lowercaseChar().toString(), KeyAction.CommitChar(c.lowercaseChar()))
 
     private fun build5(): KeyboardLayout {
         val rows = listOf(

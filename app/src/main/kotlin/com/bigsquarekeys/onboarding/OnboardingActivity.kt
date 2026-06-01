@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import com.bigsquarekeys.settings.SettingsActivity
 import com.bigsquarekeys.settings.UserPreferences
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
+
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -26,14 +26,11 @@ class OnboardingActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-                val scope = rememberCoroutineScope()
                 OnboardingScreen(
                     onAccept = {
-                        scope.launch {
-                            prefs.markOnboardingComplete()
-                            startActivity(Intent(this@OnboardingActivity, SettingsActivity::class.java))
-                            finish()
-                        }
+                        prefs.markOnboardingComplete()
+                        startActivity(Intent(this@OnboardingActivity, SettingsActivity::class.java))
+                        finish()
                     },
                 )
             }
